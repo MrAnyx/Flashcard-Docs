@@ -1,0 +1,43 @@
+{
+    "name": "Flashcard-Docs",
+    "image": "mcr.microsoft.com/devcontainers/base:alpine-3.20",
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/typescript:2": {
+            "version": "latest"
+        },
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-node:0": {
+            "corepack": true,
+            "pnpmVersion": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "dbaeumer.vscode-eslint",
+                "christian-kohler.npm-intellisense",
+                "esbenp.prettier-vscode",
+                "Vue.volar",
+                "Nuxtr.nuxtr-vscode",
+                "Nuxt.mdc"
+            ],
+            "settings": {
+                "[javascript][typescript][vue]": {
+                    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+                    "editor.formatOnSave": false
+                },
+                "[css][scss][sass][less][json][jsonc][yaml]": {
+                    "editor.formatOnSave": true,
+                    "editor.defaultFormatter": "esbenp.prettier-vscode"
+                },
+                "eslint.validate": ["javascript", "typescript", "vue"],
+                // "eslint.experimental.useFlatConfig": true,
+                "editor.codeActionsOnSave": {
+                    "source.fixAll": "never",
+                    "source.fixAll.eslint": "explicit",
+                    "source.organizeImports": "never"
+                }
+            }
+        }
+    }
+}
