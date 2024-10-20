@@ -6,16 +6,16 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'Release v0.6.4'
+  title: 'Release v0.0.1'
   icon: '🎉'
-  to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases
+  to: https://github.com/MrAnyx/Flashcard-App
   target: _blank
 actions:
   - name: Get Started
     to: /getting-started
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/MrAnyx/Flashcard-Docs
     leftIcon: 'lucide:github'
 ---
 

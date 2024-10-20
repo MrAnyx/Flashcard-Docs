@@ -1,7 +1,9 @@
+const date = new Date().getFullYear();
+
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs-nuxt',
+      name: 'Flashcard',
       description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
     },
     theme: {
@@ -10,8 +12,8 @@ export default defineAppConfig({
       radius: 0.5,
     },
     header: {
-      title: 'shadcn-docs-starter',
-      showTitle: true,
+      title: 'Flashcard',
+      showTitle: false,
       darkModeToggle: true,
       logo: {
         light: '/logo.svg',
@@ -33,7 +35,7 @@ export default defineAppConfig({
       showTitle: true,
     },
     footer: {
-      credits: 'Copyright © 2024',
+      credits: `Copyright © ${date}`,
       links: [{
         icon: 'lucide:github',
         to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',

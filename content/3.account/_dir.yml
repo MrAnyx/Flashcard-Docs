@@ -1,0 +1,3 @@
+title: Account
+icon: lucide:user
+navigation.redirect: /account/create-account
