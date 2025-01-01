@@ -3,21 +3,21 @@ const date = new Date().getFullYear();
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'Flashcard',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      name: 'Meeio',
+      description: 'Unlock your potential with a beautiful designed yet powerful flashcard application. And it\'s Open Source!',
     },
     theme: {
       customizable: true,
-      color: 'zinc',
+      color: 'cool',
       radius: 0.5,
     },
     header: {
-      title: 'Flashcard',
+      title: 'Meeio',
       showTitle: false,
       darkModeToggle: true,
       logo: {
         light: '/logo.svg',
-        dark: '/logo-dark.svg',
+        dark: '/logo.svg',
       },
       nav: [],
       links: [{

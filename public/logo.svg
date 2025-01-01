@@ -1,17 +1,29 @@
-<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1_2)">
-<g clip-path="url(#clip1_1_2)">
-<path d="M252 172L172 252" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M236 84L84 236" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<rect x="8" y="8" width="284" height="284" rx="22" stroke="black" stroke-width="16"/>
-</g>
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M356 525L606 275" stroke="url(#paint0_linear_1_50)" stroke-width="133.588" stroke-linecap="round"/>
+<path d="M106 525L356 275" stroke="url(#paint1_linear_1_50)" stroke-width="133.588" stroke-linecap="round"/>
+<path d="M606 525L693.786 437.214" stroke="url(#paint2_linear_1_50)" stroke-width="133.588" stroke-linecap="round"/>
+<path d="M606 275L606 525" stroke="url(#paint3_linear_1_50)" stroke-width="133.588" stroke-linecap="round"/>
+<path d="M356 275L356 525" stroke="url(#paint4_linear_1_50)" stroke-width="133.588" stroke-linecap="round"/>
 <defs>
-<clipPath id="clip0_1_2">
-<rect width="300" height="300" fill="white"/>
-</clipPath>
-<clipPath id="clip1_1_2">
-<rect width="256" height="256" fill="white" transform="translate(44 44)"/>
-</clipPath>
+<linearGradient id="paint0_linear_1_50" x1="356.354" y1="525.354" x2="606.354" y2="275.354" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4A9AF5"/>
+<stop offset="1" stop-color="#5FEDE1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_50" x1="106.354" y1="525.354" x2="356.354" y2="275.354" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D93FE"/>
+<stop offset="1" stop-color="#3E1BD1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1_50" x1="606.354" y1="525.354" x2="694.14" y2="437.567" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A9FBCD"/>
+<stop offset="1" stop-color="#07E7E9"/>
+</linearGradient>
+<linearGradient id="paint3_linear_1_50" x1="605.5" y1="275" x2="605.5" y2="525" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9DF8E9" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#CCFCCC" stop-opacity="0.3"/>
+</linearGradient>
+<linearGradient id="paint4_linear_1_50" x1="355.5" y1="275" x2="355.5" y2="525" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4D0BCD" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#87A7FF" stop-opacity="0.3"/>
+</linearGradient>
 </defs>
 </svg>
